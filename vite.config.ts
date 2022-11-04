@@ -16,7 +16,7 @@ const inputOptions = htmlFiles.reduce(
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [checker({ typescript: true })],
+  plugins: [checker({ typescript: false })],
   // Add a build option to tell the build to include all the html files above
   build: { rollupOptions: { input: inputOptions } },
 })
