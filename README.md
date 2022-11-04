@@ -1,6 +1,6 @@
 #### Not supported on mobile.
 
-# greatValueMacropad
+# greatValueMacropad -  a macropad copy/paste tool
 
 
 It's THE app I use for work. I made it because our platform has poor UX leading to losses in efficiency. When your solution hinges on solving pressing issues in real time, seconds are at a premium. You can see the comparison here.
@@ -32,7 +32,7 @@ In this test session with a friend, you can see how quick and simple it is to us
 3. Black text on yellow hover (instead of white) for easy readability. 
 4. Blue has high contrast with yellow/red and fades with the background so my eyes zero in on either red or yellow. 
 5. Off-white background so it doesn't feel like staring at the sun.
-6. I made a design choice not to go with (70-75ch-per-line "rule")[https://kickpoint.ca/the-readability-formula-making-your-website-easy-to-read/] so it retains the [macropad](https://www.tindie.com/products/dekuNukem/duckypad-do-it-all-mechanical-macropad/) feel. On the left is a macropad, and on the right is a piano key with 70ch.
+6. I made a design choice not to go with [70-75ch-per-line "rule"](https://kickpoint.ca/the-readability-formula-making-your-website-easy-to-read/) so it retains the [macropad](https://www.tindie.com/products/dekuNukem/duckypad-do-it-all-mechanical-macropad/) feel. On the left is a macropad, and on the right is a piano key with 70ch.
 
 ![comparison](https://user-images.githubusercontent.com/91502105/200047751-f0d1bc88-4cec-4654-8b5c-c8f0bf22a812.png)
 
