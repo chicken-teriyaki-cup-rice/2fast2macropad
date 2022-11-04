@@ -1,7 +1,7 @@
 #### Not supported on mobile.
 
 # greatValueMacropad
----
+
 
 It's THE app I use for work. I made it because our platform has poor UX leading to losses in efficiency. When your solution hinges on solving pressing issues in real time, seconds are at a premium. You can see the comparison here.
 
@@ -22,7 +22,7 @@ https://greatvaluemacropad.netlify.app/ is my macropad. It has 4 options which c
 In a test session with a friend, you can see how quick and simple it is to use. You just press the button and it copies the prompts and I just paste it in the chat.
 
 # Features:
----
+
 
 ![box demo](https://user-images.githubusercontent.com/91502105/200045794-a2d4f731-8c65-4bdf-82d1-4c24d0e41eaf.gif)
 
@@ -37,7 +37,7 @@ In a test session with a friend, you can see how quick and simple it is to use. 
 ![comparison](https://user-images.githubusercontent.com/91502105/200047751-f0d1bc88-4cec-4654-8b5c-c8f0bf22a812.png)
 
 # Notes: 
----
+
 
 - There are no hotkeys because 1 hand is always close to or on a mouse. If you like hot keys, there is  [beeftext](https://beeftext.org/) available.
 - I probably could have gone with plain purple background but I decided to be fancy. 
