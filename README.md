@@ -19,7 +19,7 @@ https://greatvaluemacropad.netlify.app/ is my macropad. It has 4 options which c
 
 ![test session w friend](https://user-images.githubusercontent.com/91502105/200043517-aa71898c-d0d7-428e-b226-25164ca5def7.gif)
 
-In a test session with a friend, you can see how quick and simple it is to use. You just press the button and it copies the prompts and I just paste it in the chat.
+In this test session with a friend, you can see how quick and simple it is to use. You just press the button and it copies the prompts and I just paste it in the chat.
 
 # Features:
 
