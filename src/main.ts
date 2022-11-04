@@ -1,4 +1,3 @@
-// @ts-nocheck
 async function copyTargetText(e) {
   try {
     await navigator.clipboard.writeText(e.target.innerText);
