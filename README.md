@@ -1,11 +1,11 @@
 #### Not supported on mobile.
 
-# greatValueMacropad -  a macropad copy/paste tool
+# 2fast2macropad -  a macropad copy/paste tool
 
 
 It's THE app I use for work. I made it because our platform has poor UX leading to losses in efficiency. When your solution hinges on solving pressing issues in real time, seconds are at a premium. You can see the comparison here.
 
-https://user-images.githubusercontent.com/91502105/200038892-28657d9f-9e39-427b-83cc-a50ebd44f9a8.mp4
+https://user-images.githubusercontent.com/91502105/200094696-14cb94fe-f69f-4653-8a66-3473976da863.mp4
 
 On the right side, is BeyondTrust, the app we use at work to answer real time chats. 
 To make the prompts come out, you have to click a very tiny arrow. 
