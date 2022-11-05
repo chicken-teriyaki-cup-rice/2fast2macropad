@@ -15,7 +15,7 @@ To make the prompts come out, you have to click a very tiny arrow.
 If you didn't see it, well, that's part of the problem isn't it? Per client, you have click at least 3 times
 and scroll just to use the most common prompts. It is a practical impossibility when 4 chats pop out at the same time.
 
-https://greatvaluemacropad.netlify.app/ is my macropad. It has 4 options which cover 90% (I use it everyday) of all chats. 
+https://2fast2macropad.netlify.app/ is my personal macropad. It has 4 options which cover 90% (I use it everyday) of all chats. 
 
 ![test session w friend](https://user-images.githubusercontent.com/91502105/200043517-aa71898c-d0d7-428e-b226-25164ca5def7.gif)
 
