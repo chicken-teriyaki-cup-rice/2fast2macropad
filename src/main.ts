@@ -1,73 +1,105 @@
+// @ts-nocheck
+
+// Cache DOM elements
+let elements
+let dialogs
+
+function cacheDomElements() {
+  elements = document.querySelectorAll('.btn')
+  dialogs = document.querySelectorAll('.dialog')
+}
+
+// Add event listeners to elements
+function addEventListeners() {
+  elements.forEach((element) => {
+    element.addEventListener('click', handleClick)
+  })
+}
+
+// Handle click event
+function handleClick(event) {
+  copyTargetText(event)
+  toggleActive(event.target)
+}
+
+// Copy target text to clipboard
 async function copyTargetText(e) {
   try {
-    await navigator.clipboard.writeText(e.target.innerText);
+    await navigator.clipboard.writeText(e.target.innerText)
   } catch (err) {
-    console.error("Failed to copy: ", err);
+    console.error('Clipboard API not supported: ', err)
   }
 }
 
-let elements = document.getElementsByClassName("btn");
-for (var i = 0; i < elements.length; i++) {
-elements[i].addEventListener("click", (e) => {
-  copyTargetText(e);
-  const et = e.target;
-    // select active class
-    const active = document.querySelector(".active");
-    // check for the button that has   active class and remove it
-    if (active) {
-      active.classList.remove("active");
-    }
-    // add active class to the clicked element 
-    et.classList.add("active");
-    
-  });
+// toggle active class
+function toggleActive(el) {
+  const active = document.querySelector('.active')
+  if (active) {
+    active.classList.remove('active')
+  }
+  el.classList.add('active')
 }
 
+// Add click event listener to document
+document.addEventListener('click', handleDocumentClick)
 
+// Handle click event on document
+function handleDocumentClick(e) {
+  e.preventDefault()
+  const el = e.target
 
-let dialogs = document.querySelectorAll('.dialog');
-document.addEventListener('click', function(e) {
-  // make sure touch doesn't fire twice, for both click/touch
-  e.preventDefault();
-  let el = e.target;
-  
-  if(el.classList.contains('btn')) {
-    let id = el.getAttribute('data-dialog');
-    let dialog = document.getElementById(id);
-    
-    // prevent from running while already open
-    if(!dialog.classList.contains('dialog--show') && !dialog.classList.contains('dialog--hide')) {
-      showDialog(dialog);
-    }
-  } else if(el.classList.contains('wrapper')) {
-    dialogs.forEach(function(dialog) {
-      hideDialog(dialog);
-    })
+  if (el.classList.contains('btn')) {
+    openDialog(el)
+  } else if (el.classList.contains('dialog')) {
+    closeDialogs()
   }
-})
+}
 
-dialogs.forEach(function (dialog) {
-  dialog.addEventListener('animationend', function(e){
-    if(e.animationName == 'fade-out-down'){
-     dialog.classList.remove('dialog--show', 'dialog--hide');
+// Open dialog
+function openDialog(el) {
+  const id = el.getAttribute('data-dialog')
+  const dialog = document.getElementById(id)
+
+  if (!dialog.classList.contains('dialog--show')) {
+    dialog.classList.add('dialog--show')
+    setTimeout(() => hideDialog(dialog), 400)
+  }
+}
+
+// Close dialogs
+function closeDialogs() {
+  dialogs.forEach((dialog) => {
+    if (dialog.classList.contains('dialog--show')) {
+      hideDialog(dialog)
     }
   })
-})
-
-function showDialog(el) {
-  el.classList.add('dialog--show');
-  
-  let timerId = setTimeout(function() {
-    hideDialog(el);
-  }, "400");
-  el.setAttribute('data-timer', timerId);
 }
 
+// Hide dialog
 function hideDialog(el) {
-  if(el.classList.contains('dialog--show')) {
-    el.classList.add('dialog--hide');
-    if(el.hasAttribute('data-timer')){
-      clearTimeout(el.getAttribute('data-timer'));
-    }
+  el.classList.remove('dialog--show')
+  el.classList.add('dialog--hide')
+}
+
+// Add animationend event listener to dialogs
+function addAnimationEventListeners() {
+  dialogs.forEach((dialog) => {
+    dialog.addEventListener('animationend', handleAnimationEnd)
+  })
+}
+
+// Handle animationend event
+function handleAnimationEnd(e) {
+  if (e.animationName === 'fade-out-down') {
+    e.target.classList.remove('dialog--hide')
   }
 }
+
+//Initialize function
+function initialize() {
+  cacheDomElements()
+  addEventListeners()
+  addAnimationEventListeners()
+}
+
+initialize()

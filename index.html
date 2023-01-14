@@ -5,26 +5,44 @@
     <link rel="icon" type="image/svg+xml" href="favicon.png" />
     <link rel="stylesheet" href="/src/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
- 
+
     <title>Buy.Me.duckyPad.</title>
+    <script
+      defer
+      data-domain="2fast2macropad.netlify.app"
+      src="https://plausible.io/js/script.js"
+    ></script>
   </head>
   <body>
-    <img class="bg" src="/background.jpg" alt="">
-    <div class="container">    
+    <img class="bg" src="/background.jpg" alt="" />
+    <div class="container">
       <div class="row">
-        <button data-dialog="accept-dialog" class="btn square">Thank you for contacting the USF IT Service Desk, how may I assist you?</button>
-        <button data-dialog="accept-dialog" class="btn square">Let me transfer you to remote support where they can remote in and check. Please hold.</button>
+        <button data-dialog="accept-dialog" class="btn square">
+          Thank you for contacting the USF IT Service Desk, how may I assist
+          you?
+        </button>
+        <button data-dialog="accept-dialog" class="btn square">
+          Let me transfer you to remote support where they can remote in and
+          check. Please hold.
+        </button>
       </div>
       <div class="row">
-        <button data-dialog="accept-dialog" class="btn square">Can you open an incognito window and try from there?</button>
-        <button data-dialog="accept-dialog" class="btn square">Let me check something real quick. Please hold.</button>
+        <button data-dialog="accept-dialog" class="btn square">
+          Can you open an incognito window and try from there?
+        </button>
+        <button data-dialog="accept-dialog" class="btn square">
+          Let me check something real quick. Please hold.
+        </button>
       </div>
-      <div id="accept-dialog" class="dialog dialog--accept" role="dialog" aria-labelledby="accept-title">
+      <div
+        id="accept-dialog"
+        class="dialog dialog--accept"
+        role="dialog"
+        aria-labelledby="accept-title"
+      >
         <h1 id="accept-title" class="dialog__title">Copied!</h1>
       </div>
     </div>
-    <script type="module" src="/src/main.ts"></script>
+    <script type="module" src="/src/index.js"></script>
   </body>
 </html>
-
-
