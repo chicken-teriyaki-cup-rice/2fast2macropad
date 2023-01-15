@@ -3,17 +3,20 @@
 # 2fast2macropad -  a macropad copy/paste tool
 
 
-It's THE app I use for work. I made it because our platform has poor UX leading to losses in efficiency. When your solution hinges on solving pressing issues in real time, seconds are at a premium. You can see the comparison here.
+It's the app I developed and use for work DAILY. Here, you can see the results of the last 10 weeks of daily use -- a crushing 41% in tickets resolved.
+
+![redacted](https://user-images.githubusercontent.com/91502105/212519482-40747a49-21d6-4eef-b867-b7c5055cd8fb.png)
+
+I made it because our platform has poor UX leading to losses in efficiency. When your solution hinges on solving pressing issues in real time, seconds are at a premium. Here you can see the comparison in the video below:
 
 https://user-images.githubusercontent.com/91502105/200094696-14cb94fe-f69f-4653-8a66-3473976da863.mp4
 
 On the right side, is BeyondTrust, the app we use at work to answer real time chats. 
-To make the prompts come out, you have to click a very tiny arrow. 
+To make the prompts come out, you have to click a very tiny arrow to select the custom prompt you want to use. 
 
 <img width="420" alt="Screenshot 2022-11-04 at 13 38 10" src="https://user-images.githubusercontent.com/91502105/200040601-8a813a9e-8bb2-4f56-a163-780224267906.png">
 
-If you didn't see it, well, that's part of the problem isn't it? Per client, you have click at least 3 times
-and scroll just to use the most common prompts. It is a practical impossibility when 4 chats pop out at the same time.
+If you didn't see the arrow, well, that's part of the problem isn't it? On average, you spend a nontrivial amount of time and actions (more than 3 clicks at the very least) just to begin a chat. This becomes a practical impossibility when 4 chats pop out at the same time leading to a large amount of nonproductive actions.
 
 https://2fast2macropad.netlify.app/ is my personal macropad. It has 4 options which cover 90% (I use it everyday) of all chats. 
 
