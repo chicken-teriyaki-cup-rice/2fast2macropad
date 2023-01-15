@@ -3,11 +3,11 @@
 # 2fast2macropad -  a macropad copy/paste tool
 
 
-It's the app I developed and use for work DAILY. Here, you can see the results of the last 5 weeks of daily use -- a crushing 41% percent of all tickets resolved.
+It's the app I developed and use for work DAILY. Below, you can see the results of just 5 weeks of daily use -- a crushing 41% percent of all tickets resolved.
 
 ![redacted](https://user-images.githubusercontent.com/91502105/212519482-40747a49-21d6-4eef-b867-b7c5055cd8fb.png)
 
-I made it because our platform has poor UX leading to losses in efficiency. When your solution hinges on solving pressing issues in real time, seconds are at a premium. Here you can see the comparison in the video below:
+I made it because our platform has poor UX leading to losses in efficiency. When your solution hinges on solving pressing issues in real time, seconds are at a premium. You can see the comparison in the video below:
 
 https://user-images.githubusercontent.com/91502105/200094696-14cb94fe-f69f-4653-8a66-3473976da863.mp4
 
@@ -16,13 +16,13 @@ To make the prompts come out, you have to click a very tiny arrow to select the 
 
 <img width="420" alt="Screenshot 2022-11-04 at 13 38 10" src="https://user-images.githubusercontent.com/91502105/200040601-8a813a9e-8bb2-4f56-a163-780224267906.png">
 
-If you didn't see the arrow, well, that's part of the problem isn't it? On average, you spend a nontrivial amount of time and actions (more than 3 clicks at the very least) just to begin a chat. This becomes a practical impossibility when 4 chats pop out at the same time leading to a large amount of nonproductive actions.
+If you didn't see the arrow, well, that's part of the problem isn't it? On average, you spend a nontrivial amount of actions (more than 3 clicks at the very least) just to begin a chat. This becomes a practical impossibility when 4 chats pop out at the same time leading to a very large amount of nonproductive actions.
 
-https://2fast2macropad.netlify.app/ is my personal macropad. It has 4 options which cover 90% (I use it everyday) of all chats. 
+https://2fast2macropad.com is my personal macropad. It has 4 options which cover 90% (I use it everyday) of all chats. 
 
 ![test session w friend](https://user-images.githubusercontent.com/91502105/200043517-aa71898c-d0d7-428e-b226-25164ca5def7.gif)
 
-In this test session with a friend, you can see how quick and simple it is to use. You just press the button and it copies the prompts so you can just paste it in the chat.
+In this test session with a friend, you can see how quick and simple it is to use. You just press the button and it copies the prompts so you can seamlessly paste it in the chat.
 
 # Features:
 
@@ -44,6 +44,6 @@ In this test session with a friend, you can see how quick and simple it is to us
 - There are no hotkeys because 1 hand is always close to or on a mouse. If you like hot keys, there is [beeftext](https://beeftext.org/), which is free and open source.
 - I probably could have gone with a plain purple background but I decided to be fancy. 
 - I made this before we learned react in our boot camp so it was made with vanilla js, html, and css.
-- In my opinion, it is currently feature complete, however there is now a demand for new features since other people started using it.
+- In my opinion, it is currently feature complete, however there is now a demand for new features since other people have started using it.
 
 ## No mobile because all our workflow is desktop.
