@@ -7,9 +7,7 @@
 
 ![redacted](https://user-images.githubusercontent.com/91502105/212519482-40747a49-21d6-4eef-b867-b7c5055cd8fb.png)
 
-I created this solution because our platform has poor UX. This leads to high losses in efficiency. 
-
-When your solution hinges on solving pressing issues in real time, seconds are at a premium. You can see the comparison in the video below:
+I created this solution because our platform has poor UX. This lead to high losses in efficiency and when your solution hinges on **_solving pressing issues in real time_**, seconds are at a premium. You can see the comparison in the video below:
 
 https://user-images.githubusercontent.com/91502105/200094696-14cb94fe-f69f-4653-8a66-3473976da863.mp4
 
@@ -20,7 +18,7 @@ To access commonly used custom prompts, you need to click a very tiny arrow to s
 
 If you didn't see the arrow, well, that's part of the problem isn't it? On average, it takes more than three clicks to initiate a chat, which becomes impractical when multiple chats pop up simultaneously. This results in a significant amount of unproductive actions.
 
-https://2fast2macropad.com is my personal macropad. It has 4 options which cover 90% (I use it everyday) of all chats. 
+https://2fast2macropad.com is my personal macropad. It has 4 options which cover 99% (I use it everyday) of all chats. 
 
 ![test session w friend](https://user-images.githubusercontent.com/91502105/200043517-aa71898c-d0d7-428e-b226-25164ca5def7.gif)
 
