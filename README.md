@@ -1,9 +1,9 @@
-#### Not supported on mobile.
+# Not supported on mobile.
 
-# 2fast2macropad -  a macropad copy/paste tool
+## 2fast2macropad -  a macropad copy/paste tool
 
 
-It's the app I developed and use for work DAILY. Below, you can see the results of just 5 weeks of daily use -- a crushing 41% percent of all tickets resolved.
+2fast2macropad is the app I developed and use for work DAILY. Below, you can see the results of just 5 weeks of daily use -- a crushing 41% percent of all tickets resolved.
 
 ![redacted](https://user-images.githubusercontent.com/91502105/212519482-40747a49-21d6-4eef-b867-b7c5055cd8fb.png)
 
