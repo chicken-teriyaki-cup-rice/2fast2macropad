@@ -1,7 +1,8 @@
-# Not supported on mobile because all our workflow is desktop.
-
-### 2fast2macropad -  a macropad copy/paste tool
-
+<div id="user-content-toc">
+  <ul>
+    <summary><h1 style="display: inline-block;">Not supported on mobile because all our workflow is desktop.</h1></summary>
+  </ul>
+</div>
 
 2fast2macropad is the app I developed and use for work DAILY. Below, you can see the results of just 5 weeks of daily use -- a crushing 41% percent of all tickets resolved.
 
@@ -46,4 +47,8 @@ In this test session with a friend, you can see how easy it is to use. Simply pr
 - I made this app before we learned react in our boot camp so it was made with just vanilla js, html, and css.
 - In my opinion, it is currently feature complete, however there is now a demand for new features since other people have started using it.
 
-## No mobile because all our workflow is desktop.
+<div id="user-content-toc">
+  <ul>
+    <summary><h1 style="display: inline-block;">Not supported on mobile because all our workflow is desktop.</h1></summary>
+  </ul>
+</div>
