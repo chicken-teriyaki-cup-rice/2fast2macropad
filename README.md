@@ -4,7 +4,7 @@
   </ul>
 </div>
 
-2fast2macropad is the app I developed and use for work DAILY. Below, you can see the results of just 5 weeks of daily use -- a crushing 41% percent of all tickets resolved.
+2fast2macropad is the app I developed and use for work DAILY. Below, you can see my results of just 5 weeks of daily use -- a crushing 41% percent of all tickets resolved.
 
 ![redacted](https://user-images.githubusercontent.com/91502105/212519482-40747a49-21d6-4eef-b867-b7c5055cd8fb.png)
 
