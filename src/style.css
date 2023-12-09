@@ -13,6 +13,7 @@ html, body {
   height: 100%;
   background-size: contain;
   background-position: center; 
+  background-repeat: repeat;
   overflow: hidden;
 }
 
