@@ -3,18 +3,12 @@ html, body {
   line-height: 1.5;
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
-  
 }
 
 .bg {
   position: fixed; 
   top: 0; 
   left: 0; 
-  width: 100%;
-  height: 100%;
-  background-image: url('https://raw.githubusercontent.com/chicken-teriyaki-cup-rice/2fast2macropad/main/public/background.jpg');
-  background-size: cover; /* or 'contain' depending on your need */
-  background-position: center; 
   overflow: hidden;
 }
 
