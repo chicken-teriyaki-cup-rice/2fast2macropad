@@ -8,7 +8,7 @@
 
 ![redacted](https://user-images.githubusercontent.com/91502105/212519482-40747a49-21d6-4eef-b867-b7c5055cd8fb.png)
 
-I created this solution because our platform has poor UX. This lead to high losses in efficiency and when your solution hinges on **_solving pressing issues in real time_**, seconds are at a premium. You can see the comparison in the video below:
+I created this solution because our platform has poor UX. This leads to high losses in efficiency and when your solution hinges on **_solving pressing issues in real time_**, seconds are at a premium. You can see the comparison in the video below:
 
 https://user-images.githubusercontent.com/91502105/200094696-14cb94fe-f69f-4653-8a66-3473976da863.mp4
 
